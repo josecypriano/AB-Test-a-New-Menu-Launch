@@ -23,7 +23,7 @@ Dados de transações para todas as lojas entre 21 de Janeiro de 2015 até 18 de
 Uma listagem de todas as lojas Round Roasters
 A listagem de 10 lojas (5 em cada mercado) que foram utilizadas como mercados teste.
 
-## Passo 1: planeje sua análise
+## Passo 1: Planeje sua análise
 Para executar a análise correta, você precisará preparar um conjunto de dados. (Limite de 250 palavras)
 Responda às seguintes perguntas para ajudá-lo a planejar sua análise:
 
