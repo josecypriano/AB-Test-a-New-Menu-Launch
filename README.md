@@ -28,8 +28,16 @@ Para executar a análise correta, você precisará preparar um conjunto de dados
 Responda às seguintes perguntas para ajudá-lo a planejar sua análise:
 
 1.	Qual é a métrica de desempenho que você usará para avaliar os resultados de seu teste?
+
+A métrica que pode ser usada para a avaliação dos resultados é Gross Margin, pois dá possibilidade de analisar o desempenho das lojas.
+
 2.	Qual é o período de teste?
+
+O período de testes foi de 12 semanas, de 29-abr-16 à 21-jul-16.
+
 3.	Em que nível (dia, semana, mês, etc.) os dados devem ser agregados?
+
+Os dados serão agregados em semanas, visto que os clientes visitam as lojas pelo menos uma vez por semana.
 
 ## Passo 2: Limpe os Dados 
 Nesta etapa, você deve preparar os dados para as etapas 3 e 4. Você deve agregar os dados de transação para o nível apropriado e filtrar nos intervalos de dados apropriados. Você pode assumir que não há dados ausentes, incompletos, duplicados ou sujos. Você está pronto para passar para a próxima etapa quando tiver dados de transações semanais para todas as lojas.
