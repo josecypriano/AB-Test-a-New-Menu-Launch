@@ -50,7 +50,14 @@ Nota: Calcule o número de transações por loja por semana para calcular a tend
 Além da tendência e sazonalidade ...
 
 1.	Que variáveis de controle devem ser consideradas? Observação: Considere apenas variáveis no arquivo RoundRoastersStore.
+
+Quando fazer a limpeza dos dados, exclusão de colunas que não serão importantes, ficamos com um total de 20 variáveis, dentro das quais 2 delas podem ser variáveis de controle: *AvgMonthSales* e *Sq_Ft*.
+
 2.	Qual é a correlação entre cada variável de controle potencial e sua métrica de desempenho?
+
+Analisando a correlação das variáveis de controle com a métrica de desempenho,*Gross.Margin*, percebemos que a varíavel *AvgMonthSales* tem uma alta correlação com a métrica de desempenho, de *0.990*, enquanto *Sq_Ft* tem uma baixíssima correlação, de *-0.024*. Como podemos ver na figura abaixo:
+
+
 3.	Que variáveis de controle você usará para combinar lojas de tratamento e controle?
 
 Preencha a tabela abaixo com seus pares de lojas de tratamento e controle:
