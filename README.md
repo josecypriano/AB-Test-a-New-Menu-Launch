@@ -72,8 +72,7 @@ Usaremos a variável *AvgMonthSales*, como variável controle. Além das variáv
 
 Preencha a tabela abaixo com seus pares de lojas de tratamento e controle:
 
-![03 - treatment and control stores](https://user-images.githubusercontent.com/34245933/51604292-7a583c80-1ef3-11e9-90b7-952401005c0e.png)
-
+![03 - treatment and control stores](https://user-images.githubusercontent.com/34245933/51604292-7a583c80-1ef3-11e9-90b7-952401005c0e.png)  
 *Figura 3: Lojas Treatment e Control*
 
 ## Etapa 4: Análise e Escrita
@@ -91,11 +90,11 @@ O aumento (lift) para a região *West* é de 35.4% enquanto para região *Centra
 
 ### West Analysis
 ![04 - west analaysis](https://user-images.githubusercontent.com/34245933/51605951-a83f8000-1ef7-11e9-9895-8ca5f3d9b7cf.PNG)
-*Figura 5: West Analysis*
+*Figura 4: West Analysis*
 
 ### Central Analysis
 ![05 - central analysis](https://user-images.githubusercontent.com/34245933/51605964-aecdf780-1ef7-11e9-8257-601ccf6563b3.PNG)
-*Figura 6: Central Analysis*
+*Figura 5: Central Analysis*
 
 3.	Qual é o aumento (lift) do novo menu em geral?
 
@@ -103,4 +102,4 @@ O aumento (lift) do novo menu em geral é de 40.1% com significância de 100%. P
 
 ### Overall Analysis
 ![06 - overall analysis](https://user-images.githubusercontent.com/34245933/51605729-061f9800-1ef7-11e9-981d-b61ca8fc9cf4.PNG)
-*Figura 4: Overall Analysis*
+*Figura 6: Overall Analysis*
