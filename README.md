@@ -42,6 +42,12 @@ Os dados serão agregados em semanas, visto que os clientes visitam as lojas pel
 ## Passo 2: Limpe os Dados 
 Nesta etapa, você deve preparar os dados para as etapas 3 e 4. Você deve agregar os dados de transação para o nível apropriado e filtrar nos intervalos de dados apropriados. Você pode assumir que não há dados ausentes, incompletos, duplicados ou sujos. Você está pronto para passar para a próxima etapa quando tiver dados de transações semanais para todas as lojas.
 
+Neste workflow, foi selecionado apenas as 76 semanas necessárias para a criação dos resultados, além da inclusão de campos como *week, week_start, week_end e new_product_flag*. A partir disso, foi criado os arquivos de *weekly_store_traffic, weekly_store_sale e store_list* que serão necessários para a continuação das estimativas.
+
+![01 - alteryx data clean up flow](https://user-images.githubusercontent.com/34245933/51574718-25d2a400-1e96-11e9-8cae-fce0fcc8d5cb.PNG)
+*Figura 1: Workflow para Limpar os Dados*
+
+
 ## Passo 3: Combinar Unidades de Tratamento e Controle
 Nesta etapa, você deve criar as variáveis de tendência e sazonalidade e usá-las juntamente com outras variáveis de controle para combinar duas unidades de controle a cada unidade de tratamento. 
 
@@ -57,8 +63,12 @@ Quando fazer a limpeza dos dados, exclusão de colunas que não serão important
 
 Analisando a correlação das variáveis de controle com a métrica de desempenho,*Gross.Margin*, percebemos que a varíavel *AvgMonthSales* tem uma alta correlação com a métrica de desempenho, de *0.990*, enquanto *Sq_Ft* tem uma baixíssima correlação, de *-0.024*. Como podemos ver na figura abaixo:
 
+![02 - pearson correlation](https://user-images.githubusercontent.com/34245933/51574841-b6a97f80-1e96-11e9-8f21-b47af48bf443.PNG)
+*Figura 2: Pearson Correlation Analysis*
 
 3.	Que variáveis de controle você usará para combinar lojas de tratamento e controle?
+
+Usaremos a variável *AvgMonthSales*, como variável controle. Além das variáveis que serão escolhidas pela ferramenta *AB Trend*.
 
 Preencha a tabela abaixo com seus pares de lojas de tratamento e controle:
 
