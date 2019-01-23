@@ -81,5 +81,25 @@ Conduza sua análise A / B e crie um breve relatório descrevendo seus resultado
 Responda estas perguntas. Certifique-se de incluir visualizações da sua análise:
 
 1.	Qual é a sua recomendação - A empresa deve lançar o menu atualizado para todas as lojas?
+
+Recomendaria fortemente à empresa lançar o novo menu para todas as lojas. Essa recomendação é com base que o nosso Teste AB sinalizou um aumento na nossa *Gross.Margin* maior que os 18% estabelecido pela empresa. O nosso teste mostrou que aumentaríamos o *Gross.Margin* em aproximadamente 40.1%.
+
 2.	Qual é o aumento (lift) do novo menu para as regiões Oeste e Central (incluir significância estatística)?
+
+O aumento (lift) para a região *West* é de 35.4% enquanto para região *Central* é de 44.7% com significância de 99.4% e 99.6% respectivamente. Com isso podemos dizer que temos uma grande change, estatisticamente falando, que estes números estão acurados. Podemos ver os resultados nos gráficos abaixo.
+
+### West Analysis
+![04 - west analaysis](https://user-images.githubusercontent.com/34245933/51605951-a83f8000-1ef7-11e9-9895-8ca5f3d9b7cf.PNG)
+*Figura 5: West Analysis*
+
+### Central Analysis
+![05 - central analysis](https://user-images.githubusercontent.com/34245933/51605964-aecdf780-1ef7-11e9-8257-601ccf6563b3.PNG)
+*Figura 6: Central Analysis*
+
 3.	Qual é o aumento (lift) do novo menu em geral?
+
+O aumento (lift) do novo menu em geral é de 40.1% com significância de 100%. Podemos dizer que temos uma grande change, estatisticamente falando, que estes números estão acurados. Podemos ver os resultados nos gráficos abaixo.
+
+### Overall Analysis
+![06 - overall analysis](https://user-images.githubusercontent.com/34245933/51605729-061f9800-1ef7-11e9-981d-b61ca8fc9cf4.PNG)
+*Figura 4: Overall Analysis*
