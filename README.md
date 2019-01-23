@@ -103,3 +103,12 @@ O aumento (lift) do novo menu em geral é de 40.1% com significância de 100%. P
 ### Overall Analysis
 ![06 - overall analysis](https://user-images.githubusercontent.com/34245933/51605729-061f9800-1ef7-11e9-981d-b61ca8fc9cf4.PNG)
 *Figura 6: Overall Analysis*
+
+## Alteryx Flow
+
+![07 - alteryx treatment control](https://user-images.githubusercontent.com/34245933/51606288-a4602d80-1ef8-11e9-98b5-0cb6020aef19.PNG)
+*Figura 7: Treatment Workflow*
+
+![08 - alteryx ab analysis](https://user-images.githubusercontent.com/34245933/51606324-bb9f1b00-1ef8-11e9-94c7-da4dd08f1ed2.PNG)
+*Figura 8: AB Analysis Workflow*
+
