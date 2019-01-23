@@ -73,6 +73,7 @@ Usaremos a variável *AvgMonthSales*, como variável controle. Além das variáv
 Preencha a tabela abaixo com seus pares de lojas de tratamento e controle:
 
 ![03 - treatment and control stores](https://user-images.githubusercontent.com/34245933/51604292-7a583c80-1ef3-11e9-90b7-952401005c0e.png)
+
 *Figura 3: Lojas Treatment e Control*
 
 ## Etapa 4: Análise e Escrita
